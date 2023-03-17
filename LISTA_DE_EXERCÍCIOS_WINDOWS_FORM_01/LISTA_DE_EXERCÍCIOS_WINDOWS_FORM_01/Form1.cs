@@ -17,20 +17,34 @@ namespace LISTA_DE_EXERCÍCIOS_WINDOWS_FORM_01
             InitializeComponent();
         }
 
-        private void comboBox1_Leave(object sender, EventArgs e)
+        private void cascataToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
+        }
+
+        private void horizontalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+        }
+
+        private void verticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(System.Windows.Forms.MdiLayout.TileVertical);
 
         }
 
-        private void rdb_somar_Click(object sender, EventArgs e)
+        private void exercício1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            double v1 = double.Parse(txt_valor1.Text);
-            double v2 = double.Parse(txt_valor2.Text);
+            Form2 frm = new Form2();
+            frm.MdiParent = this;
+            frm.Show();
+        }
 
-            double rs = v1 + v2;
-
-            txt_resultado.Text = rs+""; 
-
+        private void exercício2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 frm = new Form3();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }

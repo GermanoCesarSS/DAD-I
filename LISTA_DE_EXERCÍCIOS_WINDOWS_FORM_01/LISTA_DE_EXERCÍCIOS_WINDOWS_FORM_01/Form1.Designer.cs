@@ -3,14 +3,14 @@
     partial class Form1
     {
         /// <summary>
-        /// Variável de designer necessária.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Limpar os recursos que estão sendo usados.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,139 +20,122 @@
             base.Dispose(disposing);
         }
 
-        #region Código gerado pelo Windows Form Designer
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Método necessário para suporte ao Designer - não modifique 
-        /// o conteúdo deste método com o editor de código.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.txt_valor1 = new System.Windows.Forms.TextBox();
-            this.txt_valor2 = new System.Windows.Forms.TextBox();
-            this.txt_resultado = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rdb_somar = new System.Windows.Forms.RadioButton();
-            this.groupBox1.SuspendLayout();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.organizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cascataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.horizontalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.verticalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.projetoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercício1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercício2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txt_valor1
+            // menuStrip1
             // 
-            this.txt_valor1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_valor1.Location = new System.Drawing.Point(85, 146);
-            this.txt_valor1.Multiline = true;
-            this.txt_valor1.Name = "txt_valor1";
-            this.txt_valor1.Size = new System.Drawing.Size(185, 22);
-            this.txt_valor1.TabIndex = 0;
-            this.txt_valor1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.arquivoToolStripMenuItem,
+            this.projetoToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // txt_valor2
+            // arquivoToolStripMenuItem
             // 
-            this.txt_valor2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_valor2.Location = new System.Drawing.Point(85, 191);
-            this.txt_valor2.Multiline = true;
-            this.txt_valor2.Name = "txt_valor2";
-            this.txt_valor2.Size = new System.Drawing.Size(185, 22);
-            this.txt_valor2.TabIndex = 1;
-            this.txt_valor2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.organizarToolStripMenuItem});
+            this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
+            this.arquivoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.arquivoToolStripMenuItem.Text = "&Arquivo";
             // 
-            // txt_resultado
+            // organizarToolStripMenuItem
             // 
-            this.txt_resultado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_resultado.Location = new System.Drawing.Point(85, 335);
-            this.txt_resultado.Multiline = true;
-            this.txt_resultado.Name = "txt_resultado";
-            this.txt_resultado.ReadOnly = true;
-            this.txt_resultado.Size = new System.Drawing.Size(185, 38);
-            this.txt_resultado.TabIndex = 2;
-            this.txt_resultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.organizarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cascataToolStripMenuItem,
+            this.horizontalToolStripMenuItem,
+            this.verticalToolStripMenuItem});
+            this.organizarToolStripMenuItem.Name = "organizarToolStripMenuItem";
+            this.organizarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.organizarToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
+            this.organizarToolStripMenuItem.Text = "&Organizar";
             // 
-            // label1
+            // cascataToolStripMenuItem
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 149);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 16);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Número 1";
+            this.cascataToolStripMenuItem.Name = "cascataToolStripMenuItem";
+            this.cascataToolStripMenuItem.Size = new System.Drawing.Size(162, 26);
+            this.cascataToolStripMenuItem.Text = "&Cascata";
+            this.cascataToolStripMenuItem.Click += new System.EventHandler(this.cascataToolStripMenuItem_Click);
             // 
-            // label2
+            // horizontalToolStripMenuItem
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 191);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 16);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Número 2";
+            this.horizontalToolStripMenuItem.Name = "horizontalToolStripMenuItem";
+            this.horizontalToolStripMenuItem.Size = new System.Drawing.Size(162, 26);
+            this.horizontalToolStripMenuItem.Text = "&Horizontal";
+            this.horizontalToolStripMenuItem.Click += new System.EventHandler(this.horizontalToolStripMenuItem_Click);
             // 
-            // label3
+            // verticalToolStripMenuItem
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 346);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Resultado";
+            this.verticalToolStripMenuItem.Name = "verticalToolStripMenuItem";
+            this.verticalToolStripMenuItem.Size = new System.Drawing.Size(162, 26);
+            this.verticalToolStripMenuItem.Text = "&Vertical";
+            this.verticalToolStripMenuItem.Click += new System.EventHandler(this.verticalToolStripMenuItem_Click);
             // 
-            // label4
+            // projetoToolStripMenuItem
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(32, 22);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(290, 96);
-            this.label4.TabIndex = 6;
-            this.label4.Text = resources.GetString("label4.Text");
+            this.projetoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exercício1ToolStripMenuItem,
+            this.exercício2ToolStripMenuItem});
+            this.projetoToolStripMenuItem.Name = "projetoToolStripMenuItem";
+            this.projetoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.projetoToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+            this.projetoToolStripMenuItem.Text = "&Projeto";
             // 
-            // groupBox1
+            // exercício1ToolStripMenuItem
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.rdb_somar);
-            this.groupBox1.Location = new System.Drawing.Point(79, 223);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(185, 100);
-            this.groupBox1.TabIndex = 7;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "OPERADORES";
+            this.exercício1ToolStripMenuItem.Name = "exercício1ToolStripMenuItem";
+            this.exercício1ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D1)));
+            this.exercício1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exercício1ToolStripMenuItem.Text = "Exercício &1";
+            this.exercício1ToolStripMenuItem.Click += new System.EventHandler(this.exercício1ToolStripMenuItem_Click);
             // 
-            // rdb_somar
+            // exercício2ToolStripMenuItem
             // 
-            this.rdb_somar.AutoSize = true;
-            this.rdb_somar.Location = new System.Drawing.Point(18, 31);
-            this.rdb_somar.Name = "rdb_somar";
-            this.rdb_somar.Size = new System.Drawing.Size(77, 20);
-            this.rdb_somar.TabIndex = 0;
-            this.rdb_somar.TabStop = true;
-            this.rdb_somar.Text = "SOMAR";
-            this.rdb_somar.UseVisualStyleBackColor = true;
-            this.rdb_somar.Click += new System.EventHandler(this.rdb_somar_Click);
+            this.exercício2ToolStripMenuItem.Name = "exercício2ToolStripMenuItem";
+            this.exercício2ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D2)));
+            this.exercício2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exercício2ToolStripMenuItem.Text = "Exercício &2";
+            this.exercício2ToolStripMenuItem.Click += new System.EventHandler(this.exercício2ToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(359, 450);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txt_resultado);
-            this.Controls.Add(this.txt_valor2);
-            this.Controls.Add(this.txt_valor1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "Formulário Principal";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -160,15 +143,14 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txt_valor1;
-        private System.Windows.Forms.TextBox txt_valor2;
-        private System.Windows.Forms.TextBox txt_resultado;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton rdb_somar;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem arquivoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem organizarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cascataToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem horizontalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem verticalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem projetoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercício1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercício2ToolStripMenuItem;
     }
 }
-

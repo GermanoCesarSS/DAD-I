@@ -34,7 +34,7 @@ namespace Projeto_10
             }
             if(e.KeyCode == Keys.Left)
             {
-                label1.Location = new Point(label1.Location.X - 10, label1.Location.Y);
+                label1.Location = new Point(label1.Location.X -  10, label1.Location.Y);
             }
             
 
