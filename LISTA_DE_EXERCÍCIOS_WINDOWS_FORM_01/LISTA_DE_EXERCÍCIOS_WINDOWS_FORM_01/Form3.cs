@@ -26,8 +26,16 @@ namespace LISTA_DE_EXERCÍCIOS_WINDOWS_FORM_01
             } 
             if(e.KeyCode == Keys.Down)
             {
-                imag_butterfly.Location = new Point(imag_butterfly.Location.X + 10,
-                                                  imag_butterfly.Location.Y);
+                imag_butterfly.Location = new Point(imag_butterfly.Location.X,
+                                                  imag_butterfly.Location.Y + 10);
+            }
+            if (e.KeyCode == Keys.Left)
+            {
+                imag_butterfly.Location = new Point(imag_butterfly.Location.X - 10, imag_butterfly.Location.Y);
+            }
+            if(e.KeyCode == Keys.Right)
+            {
+                imag_butterfly.Location = new Point(imag_butterfly.Location.X + 10, imag_butterfly.Location.Y);
             }
         }
     }
