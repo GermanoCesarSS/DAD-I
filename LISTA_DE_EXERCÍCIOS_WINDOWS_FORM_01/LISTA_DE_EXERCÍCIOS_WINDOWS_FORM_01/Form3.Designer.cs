@@ -35,11 +35,12 @@
             // 
             // imag_butterfly
             // 
+            this.imag_butterfly.BackColor = System.Drawing.Color.Transparent;
             this.imag_butterfly.Image = ((System.Drawing.Image)(resources.GetObject("imag_butterfly.Image")));
-            this.imag_butterfly.Location = new System.Drawing.Point(308, 159);
+            this.imag_butterfly.Location = new System.Drawing.Point(349, 77);
             this.imag_butterfly.Name = "imag_butterfly";
-            this.imag_butterfly.Size = new System.Drawing.Size(160, 102);
-            this.imag_butterfly.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imag_butterfly.Size = new System.Drawing.Size(70, 60);
+            this.imag_butterfly.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imag_butterfly.TabIndex = 0;
             this.imag_butterfly.TabStop = false;
             // 
@@ -47,6 +48,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.imag_butterfly);
             this.Name = "Form3";

@@ -56,6 +56,22 @@ namespace LISTA_DE_EXERCÍCIOS_WINDOWS_FORM_01
 
         }
 
+        private void txt_valor1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && e.KeyChar != 44)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txt_valor2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && e.KeyChar != 44)
+            {
+                e.Handled = true;
+            }
+        }
+
         private void rdb_somar_Click(object sender, EventArgs e)
         {
             v1 = double.Parse(txt_valor1.Text);

@@ -54,6 +54,7 @@
             this.txt_valor1.TabIndex = 0;
             this.txt_valor1.Text = "0";
             this.txt_valor1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_valor1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_valor1_KeyPress);
             // 
             // txt_valor2
             // 
@@ -65,6 +66,7 @@
             this.txt_valor2.TabIndex = 1;
             this.txt_valor2.Text = "0";
             this.txt_valor2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_valor2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_valor2_KeyPress);
             // 
             // txt_resultado
             // 
