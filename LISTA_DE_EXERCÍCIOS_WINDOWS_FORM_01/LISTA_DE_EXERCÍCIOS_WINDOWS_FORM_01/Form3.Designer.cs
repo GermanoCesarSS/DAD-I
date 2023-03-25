@@ -39,7 +39,7 @@
             this.imag_butterfly.Image = ((System.Drawing.Image)(resources.GetObject("imag_butterfly.Image")));
             this.imag_butterfly.Location = new System.Drawing.Point(349, 77);
             this.imag_butterfly.Name = "imag_butterfly";
-            this.imag_butterfly.Size = new System.Drawing.Size(70, 60);
+            this.imag_butterfly.Size = new System.Drawing.Size(165, 138);
             this.imag_butterfly.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imag_butterfly.TabIndex = 0;
             this.imag_butterfly.TabStop = false;
